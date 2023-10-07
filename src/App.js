@@ -19,7 +19,7 @@ const App = () => {
                 <div className='routes'>
                     <Switch>
                         <Route exact path='/'>
-                            <Homepage/>
+                            <Homepage />
                         </Route>
 
                         <Route exact path='/exchanges'>
