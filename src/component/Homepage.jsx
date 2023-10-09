@@ -1,5 +1,6 @@
 import React from 'react'
 import millify from 'millify'
+import Loader from './Loader'
 
 import {Cryptocurrencies,News} from '../component'
 
@@ -14,7 +15,7 @@ const Homepage = () => {
   const globalStats=data?.data?.stats
 
 
-  if(isFetching) return 'Loading'
+  if(isFetching) return <Loader/>
 
   return (
     <>
